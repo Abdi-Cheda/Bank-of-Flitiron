@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "proxy": "https://fitness-hub-g8e1.onrender.com",
     "server": "https://fitness-hub-g8e1.onrender.com/transactions",
     "dev": "npm-run-all -p start server"
   },

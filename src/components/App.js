@@ -9,7 +9,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:3001/transactions')
+    axios.get('https://bank-of-flitiron.onrender.com')
       .then(({ data }) => {
         if (Array.isArray(data)) {
           setTransactions(data);

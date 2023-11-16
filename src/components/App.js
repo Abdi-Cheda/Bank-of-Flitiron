@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Your existing header content */}
+      MY BANK APP
       </header>
       <TransactionList transactions={filteredTransactions} />
       <TransactionForm onAddTransaction={handleAddTransaction} />

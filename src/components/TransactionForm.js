@@ -16,7 +16,6 @@ const TransactionForm = ({ onAddTransaction }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     onAddTransaction(newTransaction);
-    // Clear the form after submission
     setNewTransaction({
       date: '',
       description: '',

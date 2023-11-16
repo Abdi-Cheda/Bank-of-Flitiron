@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      MY BANK APP
+      <h1>MY BANK APP</h1>
       </header>
       <TransactionList transactions={filteredTransactions} />
       <TransactionForm onAddTransaction={handleAddTransaction} />

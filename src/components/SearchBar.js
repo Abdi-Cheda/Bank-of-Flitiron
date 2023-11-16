@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SearchBar = ({ searchTerm }) => {
   const handleSearch = (e) => {
     searchTerm(e.target.value);
